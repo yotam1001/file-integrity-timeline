@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "file-integrity-timeline"
+version = "0.1.0"
+description = "Read-only SHA-256 baselines and change history for local folders"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "yotam1001"}]
+keywords = ["file-integrity", "checksums", "backup-verification", "sha256"]
+
+[project.scripts]
+fit-cli = "file_integrity_timeline.cli:main"
+
+[project.gui-scripts]
+file-integrity-timeline = "file_integrity_timeline.gui:run_gui"
+
+[tool.setuptools.packages.find]
+include = ["file_integrity_timeline*"]
