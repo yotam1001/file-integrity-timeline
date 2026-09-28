@@ -12,7 +12,7 @@ A [September 2026 discussion](https://www.reddit.com/r/DataHoarder/comments/1w7e
 
 ## Download and run
 
-For Windows 10/11 x64, the release ZIP will contain two self-contained executables:
+For Windows 10/11 x64, [download the latest release ZIP](https://github.com/yotam1001/file-integrity-timeline/releases/latest/download/FileIntegrityTimeline-windows-x64.zip). It contains two self-contained executables:
 
 - `FileIntegrityTimeline.exe` — desktop interface; no Python install needed.
 - `fit-cli.exe` — command line and built-in self-test.
